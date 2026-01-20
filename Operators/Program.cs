@@ -23,18 +23,31 @@
             //console.writeline(5 >= 2); // greater than or equal to
             //console.writeline(5 <= 2); // less than or equal to
 
-            // compound operators
-            int a = 5; // assign 5 to variable a
-            a = a + 9; //compound assignment of a + 9
-            //can be simplified to :
-            //a += 9;
-            
-            Console.WriteLine(a); // 14
+            //// compound operators
+            //int a = 5; // assign 5 to variable a
+            //a = a + 9; //compound assignment of a + 9
+            ////can be simplified to :
+            ////a += 9;
 
-            Console.WriteLine(++a); // increment then print
-            Console.WriteLine(a);
-            Console.WriteLine(a++); //print then increment
-            Console.WriteLine(a);
+            //Console.WriteLine(a); // 14
+
+            //Console.WriteLine(++a); // increment then print
+            //Console.WriteLine(a);
+            //Console.WriteLine(a++); //print then increment
+            //Console.WriteLine(a);
+
+            int firstNumber = 13;
+            int secondNumber = 10;
+            Console.WriteLine($"{firstNumber} + {secondNumber} = {firstNumber + secondNumber}");
+            Console.WriteLine($"{firstNumber} - {secondNumber} = {firstNumber - secondNumber}");
+            Console.WriteLine($"{firstNumber} * {secondNumber} = {firstNumber * secondNumber}");
+            Console.WriteLine($"{firstNumber} / {secondNumber} = {firstNumber / secondNumber}");
+            Console.WriteLine($"{firstNumber} % {secondNumber} = {firstNumber % secondNumber}");
+
+            //console.writeline(5 - 5); // subtraction
+            //console.writeline(5 * 5); // multiplication
+            //console.writeline(13 / 5); // integer division
+            //Console.WriteLine(13 % 5); // modulus operator
 
 
 
